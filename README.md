@@ -27,7 +27,7 @@ A backend authentication app with the backend made using Node.js, Express, and M
 1. Navigate to the "client" directory in your terminal:
    `cd client`
 2. Install all dependencies by running:
-   `npm ci`
+   `npm i --legacy-peer-deps`
 3. Update the API endpoint URL in the `client/src/actions/index.js` file to match your backend server's URL. Replace `"localhost:port"` with your server's address.
 4. Start the frontend by running:
    `npm run start`
